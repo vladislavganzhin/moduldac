@@ -1,0 +1,13 @@
+
+State Machine - |moduldac_wrap|State
+Name State.activ_signals State.start_update State.init_cont State.init_dac State.powcont_wait_2 State.init_powcont_2 State.powcont_wait State.init_powcont State.outrange_wait State.init_outrange 
+State.init_outrange 0 0 0 0 0 0 0 0 0 0 
+State.outrange_wait 0 0 0 0 0 0 0 0 1 1 
+State.init_powcont 0 0 0 0 0 0 0 1 0 1 
+State.powcont_wait 0 0 0 0 0 0 1 0 0 1 
+State.init_powcont_2 0 0 0 0 0 1 0 0 0 1 
+State.powcont_wait_2 0 0 0 0 1 0 0 0 0 1 
+State.init_dac 0 0 0 1 0 0 0 0 0 1 
+State.init_cont 0 0 1 0 0 0 0 0 0 1 
+State.start_update 0 1 0 0 0 0 0 0 0 1 
+State.activ_signals 1 0 0 0 0 0 0 0 0 1 

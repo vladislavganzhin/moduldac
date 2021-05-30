@@ -1,0 +1,63 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do moduldac_wrap_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/moduldac_wrap.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:28 on May 30,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/moduldac_wrap.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity moduldac_wrap
+# -- Compiling architecture beexam of moduldac_wrap
+# End time: 13:54:28 on May 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/moduldac_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:28 on May 30,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/moduldac_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity moduldac_tb
+# -- Compiling architecture beexam of moduldac_tb
+# End time: 13:54:28 on May 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  moduldac_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" moduldac_tb 
+# Start time: 13:54:28 on May 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.moduldac_tb(beexam)
+# Loading work.moduldac_wrap(beexam)
+# 
+# do C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/modelsim.tcl
+# ** Error: Cannot open macro file: C:/Users/Vladislav/Start/Study
+# Error in macro ./moduldac_wrap_run_msim_rtl_vhdl.do line 14
+# Cannot open macro file: C:/Users/Vladislav/Start/Study
+#     while executing
+# "do C:/Users/Vladislav/Start/Study at LETU/d/d2/Diploma/Project/modelsim.tcl"
+add wave -position end  sim:/moduldac_tb/moduldac/o_clock_dac
+add wave -position end  sim:/moduldac_tb/moduldac/o_data_dac
+add wave -position end  sim:/moduldac_tb/moduldac/o_sync_dac
+add wave -position end  sim:/moduldac_tb/moduldac/o_ldac_dac
+add wave -position end  sim:/moduldac_tb/moduldac/i_update
+add wave -position end  sim:/moduldac_tb/moduldac/i_channel
+run -all
+# End time: 13:55:21 on May 30,2021, Elapsed time: 0:00:53
+# Errors: 3, Warnings: 0

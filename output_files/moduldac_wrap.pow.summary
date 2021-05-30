@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Sun May 30 13:50:11 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : moduldac_wrap
+Top-level Entity Name : moduldac_wrap
+Family : MAX 10
+Device : 10M08SAE144I7G
+Power Models : Final
+Total Thermal Power Dissipation : 130.66 mW
+Core Dynamic Thermal Power Dissipation : 11.69 mW
+Core Static Thermal Power Dissipation : 110.65 mW
+I/O Thermal Power Dissipation : 8.32 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
